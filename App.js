@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import Card from './app/components/Card';
 
 export default function App() {
-  console.log("card component",)
+  
   return (
     <View
     style={{
