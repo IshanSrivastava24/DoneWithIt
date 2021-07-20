@@ -9,11 +9,12 @@ import Screen from './app/components/Screen';
 import Icon from './app/components/Icon';
 import ListItem from './app/components/ListItem';
 import AccountScreen from './app/screen/AccountScreen';
+import ListingScreen from './app/screen/ListingScreen';
 
 export default function App() {
   
   return (
-    <AccountScreen />
+    <ListingScreen />
   ); 
 }
 
