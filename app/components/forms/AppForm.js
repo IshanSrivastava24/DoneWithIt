@@ -9,12 +9,11 @@ function AppForm({initialValues , validationSchema , onSubmit , children}) {
                 onSubmit={onSubmit}
                 validationSchema={validationSchema}
                 >
-                    {() => (
+                        {() => (
                         <>
                         {children}
                         </>
-                    )
-                    
+                    )                    
                     }
                 </Formik>
     );
